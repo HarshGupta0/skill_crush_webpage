@@ -1,0 +1,831 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+#head1
+{ 
+font-size: 15px;
+color: #000000;
+background: #f0faf8;
+background-size: 100%;
+word-spacing: 3px;
+text-indent: 15px;
+background-attachment:fixed;
+font-style: italic;
+}
+.menudiv
+{
+	height: 70px;
+}
+.b1,.b2,.b3
+{
+	width: 30px;
+	height: 3px;
+	background-color: black;
+	margin-left:1220px;
+	margin-top: -13px;
+	
+
+}
+#head2{
+	font-style: italic;
+	font-size: 35px;
+	color: #ed1846;
+	background-color: ffffff;
+	text-indent: 30px;
+    background-attachment: fixed;
+    font-family: 'Zen Loop', cursive;
+    letter-spacing: 3px;
+    font-weight: 400px;
+}
+#way{
+	font-size: 80px;
+	font-weight: 600;
+	font-family: 'Zen Loop', cursive ;
+}
+.ha01{
+	margin-left: 200px;
+	font-family: 'Zen Loop', cursive;
+	font-size: 25px;
+	color: black;
+	transition: color .1s;
+
+}
+.ha1{
+	margin-left: 90px;
+	font-family: 'Zen Loop', cursive;
+	font-size: 25px;
+	color: black;
+	transition: color .1s;
+}
+.ha1:hover,.ha01:hover
+{
+	color:#f75648 ;
+}
+.mp
+{
+color: black;
+margin-top: -6px;
+}
+
+.m5{
+	border-style: solid;
+	border-color:#f75648 ;
+	background-color:#f75648 ;
+	margin-left: 1000px;
+	height: 40px;
+	width: 200px;
+	margin-top: -30px;
+
+}
+#m6
+{
+	color:#f75648;
+}
+#ha2{
+font-family: 'Zen Loop', cursive;
+	font-size: 25px;
+	color:white;
+}
+#m1,#m2,#m3,#m4{
+	color: white;
+}
+
+.box1{
+	background-color: #fcf0eb;
+}
+.text1{
+	/*text-indent: 300px;*/
+	text-align: center;
+}
+#head3{
+	color: #ed1846;
+	font-family: 'Zen Loop', cursive;
+}
+#head4{
+	color: #ed1846;
+	font-family: 'Zen Loop', cursive;
+}
+.button1{
+	border-style: solid;
+	width: 280px;
+	height: 70px;
+	padding: 10px;
+	margin: 10px;
+	text-align:center; 
+	background-color: #f75648;
+	border-color: #f75648;
+	transition: width 2s, height 4s ,color 2s ;
+	/*color: white;*/
+	/*color: white;*/
+	
+}
+.button1:hover {
+	height: 50px;
+	width: 380px;
+	color: black;	
+}
+#head5{
+ font-size: 30px;
+	font-family: 'Zen Loop', cursive;
+	font-weight: 200%;
+	margin: 4px;
+	color: white;
+}
+
+
+#link1{ 
+	font-size: 20px;
+	color: #f75648;
+	font-family: 'Zen Loop', cursive;
+	transition: color 2s;
+}
+/*#link1:hover
+{
+color: black;
+}*/
+#head6{
+	text-align: center;
+	font-family: 'Zen Loop', cursive;
+	font-size: 25px;
+	font-weight: 200%;
+	word-spacing: 4px;
+}
+.des1>img
+{
+	margin-top: -50px;
+background-size: 40%;
+margin-left: 680px;
+animation-name: des1;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-delay: 0s;
+	animation-timing-function: ease-in-out;
+}
+@keyframes  des1{
+	0%{
+		bottom:0;
+		box-shadow:15px 15px 15px 15px #fcd4f7;
+	}
+	100%{
+		bottom:20px;
+		box-shadow:6px 6px 15px 15px #cbf5f7 ;
+	}
+}
+#head7{
+	text-align: center;
+	font-family: 'Zen Loop', cursive;
+	font-size: 25px;
+	font-weight: 200%;
+	word-spacing: 4px;
+}
+.dev1>img{
+	margin-bottom: 8px;
+    margin-left: 680px;
+	background-size: 40%;
+	animation-name: dev1;
+	animation-duration: 4s;
+	animation-iteration-count: infinite;
+	animation-delay: 0s;
+	animation-timing-function: ease;
+
+
+}
+@keyframes  dev1{
+	0%{
+		bottom:0;
+		box-shadow: 15px 15px 15px 15px #cbf5f7;
+	}
+	100%{
+		bottom:20px;
+		box-shadow: 6px 6px 15px 15px #fcd4f7 ;
+	}
+}
+/*#video
+{
+	color: red;
+	
+
+}
+#video1
+{
+
+	margin-left:250px ;
+}*/
+#head9{
+	font-size: 40px;
+	font-weight: 100%;
+	word-spacing: 4px;
+}
+.img1{
+	height: 100%;
+	width:80%;
+	background-image: url('img1.png');
+	background-size:50%50%;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	margin: 8px 1px 1px 140px;
+	padding-bottom: 1px;
+	
+	}
+
+.head8{
+	margin-left: 120px;
+	height: 400px;
+	width: 400px
+	border-style: solid;
+	border-color: #white;
+	padding: 8px 1px 1px 600px;
+	font-family: 'Zen Loop', cursive;
+	font-size: 25px;
+	font-weight: 100%;
+	word-spacing: 3px;
+}
+#head10
+{ 
+	text-align: center;
+	font-size: 60px;
+	font-weight: 200%;
+	word-spacing: 4px;
+	font-family: 'Zen Loop', cursive;
+	color: black;
+	height: 100%;
+	width: 100%;
+}
+/*.borde
+{
+	background-image: url('border11.jpg');
+	background-repeat: repeat-x;
+	background-attachment:fixed;
+	background-size: 100%100%;
+	height: 20%;
+	width: 20%;
+	}*/
+	#head12{
+		font-size: 25px;
+		font-family: 'Zen Loop', cursive;
+		word-spacing: 3px;
+		letter-spacing: 2px;
+	}
+.img2{
+	height: 150%;
+	width: 90%;
+	background-image: url('img2.png');
+	background-attachment:scroll;
+	margin: 2px 2px 2px 100px;
+	background-size:40%40%;
+	background-repeat: no-repeat;
+
+}
+.head11{
+	height: 40%;
+	width: 40%;
+    border-color: white;
+    margin: 8px 1px 1px 600px;
+	font-family: 'Zen Loop', cursive;
+	font-size: 40px;
+	font-weight: 200%;
+	word-spacing: 3px;
+	letter-spacing: 3px;
+
+}
+#head14{
+		font-size: 25px;
+		font-family: 'Zen Loop', cursive;
+		word-spacing: 3px;
+		letter-spacing: 2px;
+		} 
+
+    .head13 
+    {
+	height:40%;
+	width: 550px;
+    border-color: white;
+    margin-left: 100px;
+	font-family: 'Zen Loop', cursive;
+	font-size: 40px;
+	font-weight: 200%;
+	word-spacing: 3px;
+	letter-spacing: 3px;
+}
+
+
+.img3 > img
+{ 
+	float: right;
+	height: 40%;
+	width: 40%;
+	background-attachment:scroll;
+	margin-top: 80px;
+	background-size:40%40%;
+	background-repeat: no-repeat;
+}
+.img4{
+	border-style: solid;
+	border-color: white;
+	height: 400px;
+	width: 400px;
+	background-image: url('img4.png');
+	background-attachment:scroll;
+	margin-left: 90px;
+	background-size:100%100%;
+	background-repeat: no-repeat;
+	background-position:right-center;
+}
+#head15{
+	border-style: solid;
+	height: 400px;
+	width: 400px;
+	border-color: white;
+	margin-left: 600px;
+	font-family: 'Zen Loop', cursive;
+	font-size: 40px;
+	font-weight: 400%;
+	word-spacing: 3px;
+	letter-spacing: 3px;
+}
+#head16{
+	font-size: 25px;
+		font-family: 'Zen Loop', cursive;
+		word-spacing: 3px;
+		letter-spacing: 2px;
+}
+.img5>img{
+	/*height: 350px;
+	width: 350px;*/
+	/*background-image: url('img5.png');*/
+	background-size: 60%60%;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	margin-left: 500px;
+	animation-name: img5;
+	animation-duration:4s ;
+	animation-iteration-count: infinite;
+	animation-timing-function:ease;
+
+}
+@keyframes img5
+{
+	0%{
+		bottom:0;
+	box-shadow: 7px 7px 7px 7px #cbf5f7;
+	}
+	/*50% 
+	{
+		bottom:20px;
+	    box-shadow: 15px 15px 15px 15px papayawhip;
+
+	}*/
+	100%{
+
+        bottom:35px;
+	    box-shadow: 15px 15px 15px 15px #fcd4f7;
+        }
+   }     
+
+.head17{
+	word-spacing: 400px;
+	height: 400px;
+	width: 600px;
+	border-color: white;
+	border-style: solid;
+	font-size: 40px;
+	font-family: 'Zen Loop', cursive;
+	word-spacing: 4px;
+    letter-spacing: 3px;
+    text-align: center;
+
+}
+#head18
+{
+	font-size: 30px;
+		font-family: 'Zen Loop', cursive;
+		word-spacing: 3px;
+		letter-spacing: 2px;
+		
+	}
+	.img6
+	{
+	border-style: solid;
+	border-color: white;
+	height: 800px;
+	width: 400px;
+	background-image: url('img6.png');
+	background-attachment:scroll;
+	margin-left: 60px;
+	background-size:100%100%;
+	background-repeat: no-repeat;
+	
+	}
+	.head19
+{
+	border-color: white;
+	border-style: solid;
+	height: 600px;
+	width: 400px;
+	font-size: 40px;
+		font-family: 'Zen Loop', cursive;
+		word-spacing: 4px;
+		letter-spacing: 2px;
+		margin-left: 600px;
+		font-weight: 200%;
+	}
+	#head20
+	{
+	    font-size: 25px;
+		font-family: 'Zen Loop', cursive;
+		word-spacing: 4px;
+		letter-spacing: 1px;
+	}
+	#head21{
+		font-family: 'Zen Loop', cursive;
+		 font-size: 30px;
+		 font-weight: 200%;
+	}
+    .head22
+    {
+    	font-family: 'Zen Loop', cursive;
+		 font-size: 55px;
+		 font-weight: 250%;
+		 text-align: center;
+		 word-spacing: 3px;
+		 letter-spacing: 2px;
+    }
+    .head23
+    {    
+    	border-color:#f5f3f2;
+        background-color: #f5f3f2;
+    	height: 450px;
+    	width: 1000px;
+    	margin-top: 5px;
+    	margin-bottom: 5px;
+        border-style: solid;
+        border-radius:85%85%;
+
+    }
+    .head23 > img {
+    	border-radius: 50%;
+    	height:45%;
+    	width: 20%;
+    	background-size: 70%70%;
+    	margin-left: -500px;
+    	margin-top: -25%;
+    }
+    #head24{
+
+    	border-color:#f5f3f2;
+    	border-style: solid;
+    	height: 300px;
+    	width: 360px;
+    	margin-left: 200px;
+    	font-family: 'Zen Loop', cursive;
+		 font-size: 40px;
+		 font-weight: 250%;
+		 text-align: center;
+		 word-spacing: 3px;
+		 letter-spacing: 2px;
+
+    }
+    #head25
+   {
+   	font-family: 'Zen Loop', cursive;
+		 font-size: 25px;
+		 font-weight: 150%;
+		 text-align: center;
+		 word-spacing: 3px;
+		 letter-spacing: 2px;
+   }
+   
+  .head26
+    {   
+    	border-color:#f5f3f2;
+        background-color: #f5f3f2;
+    	height: 350px;
+    	width: 1000px;
+    	margin-top: 5px;
+    	margin-bottom: 5px;
+        border-style: solid;
+    }
+     #head27{
+    	font-family: 'Zen Loop', cursive;
+		 font-size: 40px;
+		 font-weight: 250%;
+		 text-align: center;
+		 word-spacing: 3px;
+		 letter-spacing: 2px;
+
+    }
+     #head28
+   {
+   	font-family: 'Zen Loop', cursive;
+		 font-size: 25px;
+		 font-weight: 150%;
+		 text-align: center;
+		 word-spacing: 3px;
+		 letter-spacing: 2px;
+		}
+		.ir1>img
+		{
+			height: 60%;
+			width: 60%;
+			margin-top: 6px;
+
+		}
+		.ir1{
+			border-style: solid;
+			border-color:#f5f3f2 ;
+			height: 350px;
+			width: 500px;
+			background-color: #f5f3f2;
+			float: left;
+		}
+		#head29{
+			font-family: 'Zen Loop', cursive;
+		 font-size: 30px;
+		 font-weight: 200%;
+		 text-align: center;
+		 word-spacing: 3px;
+		 letter-spacing: 2px;
+
+		}
+		#b1{
+			border-style: solid;
+			height: 50px;
+			width: 200px;
+			background-color:#f5f3f2 ;
+
+		}
+		#head30{
+			font-family: 'Zen Loop', cursive;
+		 font-size: 30px;
+		 font-weight: 300%;
+		 text-align: center;
+		 word-spacing: 3px;
+		 letter-spacing: 2px;
+		 color: black;
+
+		}
+		#head31{
+			 color:#f5f3f2;
+
+		}.ir2>img
+		{
+			height: 60%;
+			width: 60%;
+			margin-top: 6px;
+
+		}
+		.ir2{
+			border-style: solid;
+			border-color:#f5f3f2 ;
+			height: 350px;
+			width: 500px;
+			background-color: #f5f3f2;
+			float:right;
+		}
+		#head32{
+			font-family: 'Zen Loop', cursive;
+		 font-size: 30px;
+		 font-weight: 200%;
+		 text-align: center;
+		 word-spacing: 3px;
+		 letter-spacing: 2px;
+
+		}
+		#b2{
+			border-style: solid;
+			height: 50px;
+			width: 200px;
+			background-color:#f5f3f2 ;
+
+		}
+		#head34{
+			font-family: 'Zen Loop', cursive;
+		 font-size: 30px;
+		 font-weight: 300%;
+		 text-align: center;
+		 word-spacing: 3px;
+		 letter-spacing: 2px;
+		 color: black;
+
+		}
+		#head33{
+			 color:#f5f3f2;
+
+		}
+		.head35{
+			text-align: center;
+			font-family: 'Zen Loop', cursive;
+		 font-size: 30px;
+		 font-weight: 300%;
+		 text-align: center;
+		 word-spacing: 3px;
+		 letter-spacing: 2px;
+		}
+ #l1{
+ 	color: #f75648 ;
+ }
+ #head36
+ {
+ 	text-align: center;
+			font-family: 'Zen Loop', cursive;
+		 font-size: 40px;
+		 font-weight: 300%;
+		 text-align: center;
+		 word-spacing: 3px;
+		 letter-spacing: 2px;
+		 color: #f75648;
+ }
+ #head37{
+ 	     text-align: center;
+	     font-family: 'Zen Loop', cursive;
+		 font-size: 30px;
+		 font-weight: 300%;
+		 text-align: center;
+		 word-spacing: 3px;
+		 letter-spacing: 2px;
+
+ }
+ .head38{
+ 	margin-left:160px ;
+ 	justify-content: center;
+ 	height: 70px;
+ 	width: 800px;
+ 	background-color: black;
+ 	color: white;
+ }
+ #head39{
+ 	text-align: center;
+ 	color: white;
+ 	padding: 22px 4px 10px 35px;
+
+ }
+ 
+ .head40{
+ 	     text-align: center;
+ 	     margin-left: 170px;
+         border-color: white;
+ 	     height: 100px;
+ 	     width: 400px;
+         border-style: solid;
+	     font-family: 'Zen Loop', cursive;
+		 font-size: 20px;
+		 font-weight: 200%;
+		 text-align: center;
+		 word-spacing: 3px;
+		 letter-spacing: 2px;
+
+ }
+ .head41{
+ 	     margin-left: 620px;
+ 	     margin-top: -100px;   
+ 	     height: 100px;
+ 	     width: 400px;
+         border-style: solid;
+	     font-family: 'Zen Loop', cursive;
+		 font-size: 20px;
+		 font-weight: 200%;
+		 text-align: center;
+		 word-spacing: 3px;
+		 letter-spacing: 2px;
+		 border-color: white;
+		 border-left-color: black;
+}
+.head42
+{
+	height: 200px;
+	width: 900px;
+	border-style: solid;
+	border-color: white;
+	background-color: white;
+	transition: color 2s;
+}
+
+#head43
+{   
+	margin-left: 200px;
+	border-style: solid;
+	height: 75px;
+	width: 280px;
+	border-color:  #f75648;
+	background-color:  #f75648;
+	transition: width 2s;
+}
+#head43:hover
+{
+
+   width: 380px;
+
+}
+#head44
+{
+	   text-align: center;
+ 	    color: white;
+ 	    font-family: 'Zen Loop', cursive;
+		 font-size: 20px;
+		 font-weight: 200%;
+		 text-align: center;
+		 word-spacing: 3px;
+		 letter-spacing: 2px;
+		 transition: color 2s;
+ 	}
+ 	#head44:hover
+ 	{
+     color:papayawhip;
+ 	}
+ 	.head45{
+ 		margin-top: -100px;
+ 		margin-left: -100px;
+ 		float: left;
+ 		height: 450px;
+ 		width: 111%;
+ 		background-color:papayawhip;
+ 		border-radius:50%50%0%0%; 
+ 	}
+
+ 	.large1
+ 	{
+ 		background-color:white;
+ 		height: 300px;
+ 		width: 1000px;
+ 		border-style: solid;
+ 		border-color: white;
+ 	}
+ 	#head46
+ 	{
+ 	    text-indent: 620px;
+ 	    color: black;
+ 	    font-family: 'Zen Loop', cursive;
+		 font-size: 40px;
+		 font-weight: 300%;
+		
+		 word-spacing: 3px;
+		 letter-spacing: 2px;	
+ 	}
+ 	.head45>img
+ 	{
+ 		background-size: 22%22%;
+ 		height: 13%;
+ 		width: 13%;
+ 		margin-left: 60px;
+
+ 	}
+
+ 	/*.bi>img{
+ 		background-size: 25%25%;
+ 		height: 15%;
+ 		width: 15%;
+ 		margin-left: 60px;
+ 	}
+ 	.fc>img{
+ 		background-size: 25%25%;
+ 		height: 15%;
+ 		width: 15%;
+ 		margin-left: 60px;
+ 	
+}
+.ms>img{
+ 		background-size: 30%30%;
+ 		height: 25%;
+ 		width: 25%;
+ 		margin-left: 60px;
+ 	}
+ 	#NYT>img{
+ 		background-size: 200%200%;
+ 		height: 100%;
+ 		width: 100%;
+ 		margin-left: 60px;
+ 	}*/
+ 	#head47
+ 	{
+ 	 font-family: 'Zen Loop', cursive;
+		 font-size: 60px;
+		 font-weight: 300%;
+	}
+
+ 	.search-box{
+ 		justify-content: center;
+ 		text-align: center;
+ 	}
+ 	.search{
+ 		height: 60px;
+ 		width: 250px;
+        border-style: solid;
+        font-family: 'Zen Loop', cursive;
+		 font-size: 35px;
+		 font-weight: 300%;
+		 border-width: 300%;
+		 padding-left: 30px;
+		 transition: width 1s,border-color 1s;
+
+    }
+   .search:hover{
+         width: 270px;
+
+   }
+   .search:click{
+    border-color: blue;
+   }
+   .icon{
+      cursor: pointer;    
+  }
